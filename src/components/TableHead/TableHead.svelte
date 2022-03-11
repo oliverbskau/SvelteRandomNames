@@ -23,6 +23,7 @@ let peoples = [
         <th>Id</th>
         <th>Name</th>
         <th>Email</th>
+        <th>Picture</th>
     </tr>
     {#each peoples as people}
  <TableRow people={people}/>
@@ -33,9 +34,10 @@ let peoples = [
     table{
 	width: 100%;
 	margin: auto;
-	border: 5px solid black
+	border: 5px solid black;
 }
 th{
 	border: 1px solid black;
+    font-size: 25px;
 }
 </style>
